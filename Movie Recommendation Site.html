@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MovieSite</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.2/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="./indext.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" type="icon" sizes="32x32" href="./photos/favicon.ico">
+  </head>
+  <body>
+    <header>
+      <img w-16 md:w-32 lg:w-48
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAqCAYAAADFw8lbAAAAAXNSR0IArs4c6QAAAntJREFUWEftmMurTVEcxz83ZXSlJHUzl0ehMDCSronHH+A18cpNCTOKUB5FEXnkXSiMlNfkemREUh4DScpIJEyQ8oj1rbVvv5Z9zllnW3ftTp01Of1+Zz0++7u+e621Vw8dUno6hJMuaOqZ6nhFVwILgLGplWnR30fgFnA2rFemqCqtyAwYDnccWGeTIegM4HHNkMXwU4AXRRCCbgIOGNAHwOwAXLkfJjcOmGTi7842j4I2E4A+k3sHvCoRZI7JbQAONwLd7v7YYSrrQW4AC01uN7DVxL3AS2C8yc0D7ph4up+pET732T/chwD2j4l3WpZQ0TJQKaanH+07+e3gZwJPTaf9wG0TvwUmAl9Nbg+wxcQ3HfyiqqBSU7Ch4suAiyYv70xzyv4yuVPAahOfBNaaeCTwBJhsckuBSyaOVrQRqPoKLbAL2JbYAklAU1lgL7C5gQWSgKrv5cCFFhY4DawydU4AAy0ssMR5+rKzXWXQuYHZFR4LliMtIVdNvVHAtaCddro3JjcL2GfiT27lWAwMxr71oUdLOLOlmi5PXdAK89CWomUerTBmdJN7VT2a+7xa+a2PBZW3vwH7o7Urr5gFVFvva0B7+rmKwNlAC76HHvh6m8DZQQs+gUphgceU2kALOFlBwLJGs1I7qOCO+vPolyaktYJe8Wo+j5j7WkDvAvps0W9syQoq5eRHKdluyQK6xgPKi1VLFlBN88+qhL7dsIP+J99Q82jQje6z+KAZ9X4qgsh+7AWEWA4V7cJDx1TgWWSnw12t6ZWOBj8D6BunznIEWG8BGh3j9AbPd3c/YzLTvvfXjufDcWPPm5l5/x2uC5p6CrqKplb0L1b4ryvLpiTSAAAAAElFTkSuQmCC"
+      />
+      <h1 class="text-zinc-50">MOVIE SHACK</h1>
+
+      <nav>
+        <ol class="text-zinc-50">
+          <li>Home</li>
+          <li>Genres</li>
+          <li>Favorites</li>
+          <li>Contact Us</li>
+        </ol>
+      </nav>
+    </header>
+
+    <main>
+      <h1 class="text-center text-red-600" >MOVIE RANKING SITE</h1>
+      <p class="text-center">
+        Are you a movie lover looking for your next great watch? Welcome to
+        Movie Shack, your go-to destination for the best movie recommendations.
+      </p>
+      <div class="place-content-center" id="image-container">
+        <img src="./photos/dune.png" alt="background" />
+      </div>
+      <br />
+
+      <section class="p-10 " id="main-content">
+        <section>
+          <h1 class="text-red-600">TOP 5 MOVIES OF THE WEEK</h1>
+
+          <div class="grid grid-cols-5 gap-5">
+            <div>
+              <img class=" md:w-36 lg:w-48" src="./photos/action.png" />
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad,
+                quod voluptas modi voluptatem laborum rem sunt quis iusto
+                minima, doloremque voluptate odio perspiciatis, ullam assumenda.
+                Aliquid odit perspiciatis ratione perferendis?
+              </p>
+              <a
+                href="https://www.youtube.com/watch?v=hRFY_Fesa9Q&pp=ygUIYmFkIGJveXM%3D"
+                class="btn"
+                >Watch</a
+              >
+            </div>
+            <div>
+              <img  class=" md:w-36 lg:w-48" src="./photos/scifi.png" />
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad,
+                quod voluptas modi voluptatem laborum rem sunt quis iusto
+                minima, doloremque voluptate odio perspiciatis, ullam assumenda.
+                Aliquid odit perspiciatis ratione perferendis?
+              </p>
+              <a
+                href="https://www.youtube.com/watch?v=L3pk_TBkihU&pp=ygUNdGVuZXQgdHJhaWxlcg%3D%3D"
+                class="btn"
+                >Watch</a
+              >
+            </div>
+            <div>
+              <img  class=" md:w-36 lg:w-48" src="./photos/adventure.png" />
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad,
+                quod voluptas modi voluptatem laborum rem sunt quis iusto
+                minima, doloremque voluptate odio perspiciatis, ullam assumenda.
+                Aliquid odit perspiciatis ratione perferendis?
+              </p>
+              <a
+                href="https://www.youtube.com/watch?v=iJkspWwwZLM&pp=ygUqam91cm5leSB0byB0aGUgY2VudHJlIG9mIHRoZSBlYXJ0aCB0cmFpbGVy"
+                class="btn"
+                >Watch</a
+              >
+            </div>
+            <div>
+              <img  class=" md:w-36 lg:w-48" src="./photos/romcom.png" />
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad,
+                quod voluptas modi voluptatem laborum rem sunt quis iusto
+                minima, doloremque voluptate odio perspiciatis, ullam assumenda.
+                Aliquid odit perspiciatis ratione perferendis?
+              </p>
+              <a
+                href="https://www.youtube.com/watch?v=hRFY_Fesa9Q&pp=ygUIYmFkIGJveXM%3D"
+                class="btn"
+                >Watch</a
+              >
+            </div>
+            <div>
+              <img  class=" md:w-36 lg:w-48" src="./photos/thriller.png" />
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad,
+                quod voluptas modi voluptatem laborum rem sunt quis iusto
+                minima, doloremque voluptate odio perspiciatis, ullam assumenda.
+                Aliquid odit perspiciatis ratione perferendis?
+              </p>
+              <a
+                href="https://www.youtube.com/watch?v=hRFY_Fesa9Q&pp=ygUIYmFkIGJveXM%3D"
+                class="btn"
+                >Watch</a
+              >
+            </div>
+          </div>
+        </section>
+
+        <h1 class="text-red-600">MOVIE GENRES</h1>
+
+        <section
+          class="flex space-x-5 place-content-center h-24 p-10 py-8"
+          id="genres"
+        >
+          <div class="grid grid-cols-5 gap-5">
+            <div>
+              <img  class=" md:w-36 lg:w-48" src="./photos/action.png" />
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad,
+                quod voluptas modi voluptatem laborum rem sunt quis iusto
+               
+              </p>
+              <a
+                href="./pages/action.html"
+                class="btn"
+                >Watch</a>
+            </div>
+            <div>
+              <img  class=" md:w-36 lg:w-48" src="./photos/scifi.png" />
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad,
+               
+              </p>
+              <a
+              href="./pages/scifi.html"
+              class="btn"
+              >Watch</a>
+            </div>
+            <div>
+              <img  class=" md:w-36 lg:w-48" src="./photos/adventure.png" />
+              <p>
+             
+                Aliquid odit perspiciatis ratione perferendis?
+              </p>
+              <a
+              href="./pages/adventure.html"
+              class="btn"
+              >Watch</a>
+            </div>
+            <div>
+              <img  class=" md:w-36 lg:w-48" src="./photos/romcom.png" />
+              <p>
+                 Ad,
+                quod voluptas modi voluptatem laborum rem sunt quis iusto
+                minima, doloremque voluptate odio perspiciatis, ullam assumenda.
+             
+              </p>
+              <a
+              href="./pages/romcom.html"
+              class="btn"
+              >Watch</a>
+            </div>
+            <div>
+              <img  class=" md:w-36 lg:w-48" src="./photos/thriller.png" />
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              </p>
+              <a
+              href="./pages/thriller.html"
+              class="btn"
+              >Watch</a>
+            </div>
+          </div>
+
+          <br />
+        </section>
+      </section>
+    </main>
+
+    <br />
+
+    <footer className="footer p-10 bg-neutral text-neutral-content">
+      <nav>
+        <h6 className="footer-title">Services</h6> 
+        <a className="link link-hover">Branding</a>
+        <a className="link link-hover">Design</a>
+        <a className="link link-hover">Marketing</a>
+        <a className="link link-hover">Advertisement</a>
+      </nav> 
+      <nav>
+      
+      <nav>
+        <h6 className="footer-title">Legal</h6> 
+        <a className="link link-hover">Terms of use</a>
+        <a className="link link-hover">Privacy policy</a>
+        <a className="link link-hover">Cookie policy</a>
+      </nav>
+    </footer>
+        </body>
+</html>
